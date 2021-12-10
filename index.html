@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <style>
+      #gameScreen {
+        border: 1px solid black;
+      }
+      /* #scoreScreen {
+        border: 1px solid black;
+      } */
+      img {
+        display: none;
+      }
+      html,
+      body {
+        height: 100%;
+      }
+      html {
+        display: table;
+        margin: auto;
+      }
+      body {
+        display: table-cell;
+        vertical-align: middle;
+      }
+      @font-face {
+        font-family: "CustomFont";
+        src: url("assets/fonts/SUPERBOOM.ttf");
+      }
+    </style>
+  </head>
+  <img id="img_car_front" src="assets/images/car_front.png" />
+  <img id="img_car_back" src="assets/images/car_back.png" />
+  <img id="img_car_side" src="assets/images/car_side.png" />
+  <img id="img_car_side_f" src="assets/images/car_side_f.png" />
+  <img id="img_garbage" src="assets/images/img_garbage.png" />
+  <img id="img_coin" src="assets/images/img_coin.png" />
+  <img id="img_house" src="assets/images/img_house.png" />
+  <img id="img_person" src="assets/images/img_person.png" />
+  <img id="img_flag" src="assets/images/img_flag.png" />
+  <img id="img_ow_tile" src="assets/images/img_ow_tile.png" />
+  <img id="img_blockade" src="assets/images/img_blockade.png" />
+  <img id="img_blockade_open" src="assets/images/img_blockade_open.png" />
+  <img id="img_garbage_multiple" src="assets/images/img_garbage_multiple.png" />
+  <img id="img_coin_multiple" src="assets/images/img_coin_multiple.png" />
+
+  <img id="img_blockade_closed" src="assets/images/img_blockade_closed.png" />
+  <img id="img_gas" src="assets/images/img_gas.png" />
+  <img id="img_total" src="assets/images/img_total.png" />
+
+  <img id="ins1" src="assets/images/ins1.png" />
+  <img id="ins2" src="assets/images/ins2.png" />
+  <img id="ins3" src="assets/images/ins3.png" />
+  <img id="ins4" src="assets/images/ins4.png" />
+  <img id="ins5" src="assets/images/ins5.png" />
+  <img id="ins6" src="assets/images/ins6.png" />
+  <img id="ins7" src="assets/images/ins7.png" />
+  <img id="ins8" src="assets/images/ins8.png" />
+  <img id="ins9" src="assets/images/ins9.png" />
+  <body width="1500" height="1000">
+    <div id="entireScreen">
+      <canvas
+        id="gameScreen"
+        width="600"
+        height="600"
+        crossorigin="anonymous"
+      ></canvas>
+      <canvas id="scoreScreen" width="300" height="600" crossorigin="anonymous">
+      </canvas>
+
+      <script src="src/index.js"></script>
+    </div>
+  </body>
+
+  <div id="output"></div>
+</html>

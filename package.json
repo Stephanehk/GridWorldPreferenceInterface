@@ -1,0 +1,31 @@
+{
+  "name": "gridworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "DOM": "0.0.3",
+    "assets": "3.0.1",
+    "canvg": "3.0.7",
+    "canvg-browser": "1.0.0",
+    "d3": "6.7.0",
+    "desktop-screenshot": "0.1.1",
+    "dom": "0.0.3",
+    "express": "4.17.1",
+    "html2canvas": "1.0.0-rc.7",
+    "html2canvas-proxy": "1.0.1",
+    "parcel-bundler": "^1.6.1",
+    "screenshot-node": "1.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": []
+}
